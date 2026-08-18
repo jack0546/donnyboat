@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #f2f2f2;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.content{
+    width: 20%;
+    margin: 15px;
+   box-sizing: border-box;
+   float: left;
+   text-align: center;
+   border-radius: 2px;
+   cursor: pointer;
+   padding-top: 10px;
+   box-shadow: 0 14px, 28px rgba(0,0,0,0,25),
+   0 10px 10px rgba(0,0,0,0,22);
+   transition: .4s;
+   background: #f2f2f2;
+   }
+.content:hover{
+    box-shadow: 0 3px, 6px rgba(0,0,0,0,16),
+    0 3px 6px rgba(0,0,0,0,23);
+    transform: translate(0px, -8px);
+}
+.img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+p{
+    text-align: center;
+    color: #b2b2c3;
+    padding-top: 0 8px;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+li{
+    padding-top: 5px;
+}
+.fa{
+    font-size: 26px;
+    transition:.6s;
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;  
+}
+.buy-1{
+    background: #08aa6c;
+}
+.buy-2{
+    background: #08aa6c;
+}
+.buy-3{
+    background: #08aa6c;
+}
+.buy-4{
+    background: #08aa6c;
+}
+.buy-5{
+    background: #08aa6c;
+}
+.buy-6{
+    background: #08aa6c;
+}
+@media(max-width:1000px){ 
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .content{
+        width: 100%;
+    }
+}
+nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2rem;
+      height: 64px;
+      background: rgba(199, 169, 169, 0.85);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+    }
+ 
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      flex-shrink: 0;
+    }
+ 
+    .logo-mark {
+      width: 34px;
+      height: 34px;
+      background: var(--accent);
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+ 
+    .logo-mark svg { width: 18px; height: 18px; }
+ 
+    .logo-name {
+      font-family: var(--font-head);
+      font-size: 1.15rem;
+      color: var(--text);
+      letter-spacing: -0.01em;
+      line-height: 1;
+    }
+ 
+    .logo-name span { color: var(--accent); }
+ 
